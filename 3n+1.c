@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  long long int n = 172800000001;
-  long long int i = n;
+  unsigned long long int n = 172800000001;
+  unsigned long long int i = n;
   while(1==1){
     while(i!=1){
       //main calculations
