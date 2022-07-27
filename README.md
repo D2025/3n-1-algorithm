@@ -10,6 +10,6 @@ This is one of my first projects written in C, it's 3n+1 algorithm which i shoul
 
 This program can calculate around 1 billion seeds (technically 500 million as i only use odd numbers) from 3 to 1 000 000 001 in around 62s on my not very powerful laptop (8gb ram and i7-3520M)
 
-Limitation: because i use long long int in the code it can only calculate number upto around 2^63/3 before experiencing issues. I'm trying to somehow fix this issue
+Limitation: because i use unsigned long long int in the code (the longest int type in C) it can only calculate number upto around 2^63/1,5 before experiencing issues. I'm trying to somehow fix this issue but it seems like all packages that extend int are for linux.
 
 I'm also including python file that is pretty much the same as C one but doesn't have this limitation. The obvious drawback is that it's at least like 20 times slower than C one.
