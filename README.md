@@ -12,4 +12,6 @@ This program can calculate around 1 billion seeds (technically 500 million as i 
 
 Limitation: because i use unsigned long long int in the code (the longest int type in C) it can only calculate number upto around 2^63/1,5 before experiencing issues. I'm trying to somehow fix this issue but it seems like all packages that extend int are for linux.
 
-I'm also including python file that is pretty much the same as C one but doesn't have this limitation. The obvious drawback is that it's at least like 20 times slower than C one.
+I'm also including python file that is pretty much the same as C one but doesn't have this limitation. The obvious drawback is that it's at least like 20 times slower than C one. 
+
+Update: added lua file 
